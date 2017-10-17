@@ -1,0 +1,10 @@
+
+*.cache
+*.config
+*.manifest
+*.pdb
+*.suo
+DLL/bin/*
+DLL/obj/*
+Experiments/bin/*
+Experiments/obj/*
