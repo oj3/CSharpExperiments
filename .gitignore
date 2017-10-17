@@ -8,3 +8,4 @@ DLL/bin/*
 DLL/obj/*
 Experiments/bin/*
 Experiments/obj/*
+*.user

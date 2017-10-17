@@ -72,11 +72,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Access.cs" />
     <Compile Include="BaseTestForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BaseTestForm.Designer.cs">
       <DependentUpon>BaseTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseTestPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaseTestPanel.Designer.cs">
+      <DependentUpon>BaseTestPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DerivedTestForm.cs">
@@ -84,6 +91,10 @@
     </Compile>
     <Compile Include="DerivedTestForm.Designer.cs">
       <DependentUpon>DerivedTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DerivedTestPanel.cs" />
+    <Compile Include="DerivedTestPanel.Designer.cs">
+      <DependentUpon>DerivedTestPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="DesignerTest\DesignerTestForm1.cs">
       <SubType>Form</SubType>
@@ -160,6 +171,12 @@
     </Compile>
     <Compile Include="ImageTestForm.Designer.cs">
       <DependentUpon>ImageTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TestMenu.Designer.cs">
+      <DependentUpon>TestMenu.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
